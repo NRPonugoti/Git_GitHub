@@ -1,0 +1,119 @@
+Day 6:
+
+GIT :
+Version control system
+Soruce code managment 
+Version control systems are tools that help a software team manage changes to
+source code over time.
+
+types of GIT :
+Two types Version Controlloing
+1) Centrailized Version controlling
+2) Distributed Version controlling
+Git is Distributed Version controlling.
+
+How to configure username and email for git
+$ git init
+$ git config --global user.name "sunilkumark11"
+$ git config --global user.email "sunilkumark11@gmail.com"
+ TO check the configurations
+$ git config --global --list
+
+working directory ------> staging area -------> LR
+
+As per GIT , 3 types of files 
+untracked files
+staged files
+commited files
+How to make working directory as git repository
+$ git init
+
+$git status  - it is showing the status of local repos 
+
+file move from untracked to stage area 
+$git add .
+$git add filename 
+ 
+file move from stage area to local repository 
+$ git commit -m "first commit"
+$ git commit -a -m "first commit"
+
+exitsitng file difference at working directory 
+$git diff files3.txt 
+git diff –staged files3.txt  -- see the file differences in staging area 
+
+check the local repos file 
+$ git ls-files
+
+same tine remove the file in working directory and local repos 
+$ git rm filename 
+then commit the remove chagnes 
+$ git commit -m "delete"
+
+delete the file only in local repos
+$ git rm –cached filename 
+
+remove file change in working directory 
+$ git checkout filename ( change the file and file in working directory then remove the changes using this command)
+
+remove the file changes at staging area
+$ git reset HEAD filename 
+
+remove file changes and commit id in local repos 
+$ git reset HEAD~1 /git reset --mixed HEAD~1  - but file in working directory 
+ $ git reset –soft HEAD~1  -- but file in staged area
+remove the file changes and commit id in working directory and local repos 
+$ git reset --hard HEAD~1 
+
+
+
+$ git log  - gives more info regarding commit inforamtion 
+latest commit is head 
+$ git log --online 
+
+Branch :
+
+default branch of GIT is master 
+
+create a branch 
+$git branch test
+
+show all branches 
+$git branch 
+change the branch from master to test
+$git checkout test
+
+create branch and switch to branch using this command
+$ git checkout -b b1 master
+
+delete the branch 
+$ git branch -d branchname
+
+delete the unmargeb branch 
+$ git branch -D branchname 
+when you create the new branch then all commit history also copied from master to new branck
+
+see all commit history 
+$git log --online 
+
+if you want to merge the branch then yor control should be mster branch 
+$git merge test 
+
+.gitignore files : means if you don't want to move the file from untrack to stage area 
+
+
+how to push our code to repote repos
+
+$ git remote add origin ""
+origin means alias name
+$ git push origin master
+delete the branch in remote repos
+$git push origin --delete test
+
+copy the project from remote repos to local repos ( empty folder)
+$ git clone link of github
+
+update our local repos( git pull=fetch+merge)
+$ git pull origin master
+
+
