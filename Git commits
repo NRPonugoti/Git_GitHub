@@ -1,0 +1,9 @@
+Compare latest commit to Previuos commit
+$git diff commit_id1  commit_id2
+OR
+$git diff HEAD HEAD~1
+
+You want to see what you changed for articular commit id 
+$git show commit_id
+OR
+$git show HEAD
