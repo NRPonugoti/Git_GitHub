@@ -10,3 +10,7 @@ $git show HEAD
 
 To display list of users  who is change the specific file
 $git annotate file_name
+
+go to github--> select project---> select file ---> you can see Blame option 
+Blame option and annotate both are same functionality 
+both are showing changes of different commit id 
