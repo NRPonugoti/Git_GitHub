@@ -1,0 +1,12 @@
+working directory : create folder : project
+then 
+#git init 
+#git add .
+#git commit -a -m "commit"
+then all files moved form working directory to Local Repository 
+then push this project to github project 
+then go to github 
+then create new repository with name: project which name of folder you created in working directory 
+#git remote add origin url_of_github_repos
+then push it 
+#git push origin master 
