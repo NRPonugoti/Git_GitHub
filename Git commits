@@ -7,3 +7,6 @@ You want to see what you changed for articular commit id
 $git show commit_id
 OR
 $git show HEAD
+
+To display list of users  who is change the specific file
+$git annotate file_name
