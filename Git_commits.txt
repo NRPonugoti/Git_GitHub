@@ -14,3 +14,6 @@ $git annotate file_name
 go to github--> select project---> select file ---> you can see Blame option 
 Blame option and annotate both are same functionality 
 both are showing changes of different commit id 
+
+how to switch the commits in github
+#git checkout commit_id 
