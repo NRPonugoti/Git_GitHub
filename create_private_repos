@@ -17,6 +17,18 @@ if you want to invite users , those users shold
 I'm inviting him as a collaborator whenever we are inviting him as a collaborator.
 First thing is this Docker repository should be cloned by this user.
 If he is not yet cloned, it doesn't work if I go to the kills.
+I will send collaborator invitation and then he will accept my invitation 
+then he will clone my public repos and will do some changes as well by user who i ivited 
+now user does push changes to my rpos then asking user name and password then user provide his username and password 
+then updated changes on my repso because i gave permission to user 
+
+
+Creating Protecting branch :
+we have 3 branches , dev , test, prod
+so users push code ponly dev branch and not allow to push any code directly to test abd prod branch 
+so i need to protect my test and prod branch 
+no one access branch which branch i Protecting 
+
 
 
 
