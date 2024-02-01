@@ -8,5 +8,9 @@ git pull do 2 things
 
 # git fetch 
 if we use git fetch it is going to sync only our remote repository with our local repository 
+
 git pull =git fetch +git merge 
 
+# git merge 
+it is going to pull all changes from our local repos to working directory 
+git merge 
