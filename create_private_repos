@@ -49,5 +49,14 @@ tagging a commit
 2. tagging is generaly used to capture a point in history that is used for a marked version release (i,e v1.0.1)
 3. A tag is like a branch that doesn't change 
 
+create tag 
+to check tags are exist
+#git tag 
+to create a tag for particuler commit id 
+#git tag v1.0
+then check it
+#git tag
+then push this tags to github
+#git push origin v1.0
 
 
