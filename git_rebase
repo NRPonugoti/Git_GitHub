@@ -2,3 +2,9 @@ Usually git rebase we use whenever we want to squeeze multiple commits into one 
 Let's assume that I have done five commits but five commits.
 I don't want to push it into my repository.
 Then I can convert those five commits into a single commit.
+
+for example :
+
+you have 5 commits , 1 commit point to head leave it that commit 
+#git rebase -i HEAD~4
+
