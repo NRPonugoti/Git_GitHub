@@ -12,4 +12,11 @@ if that is the case , another user is also work with me closely , he might be do
 his pull request rather then that one what i can do i can add another user as collaborator , so i don't need to approve his commit 
 what ever he do on this repos for that i can go 
 
-Setting ----Manage Access ----click Invite a collaborator 
+Setting ----Collaborators----click Invite a collaborator 
+if you want to invite users , those users shold 
+I'm inviting him as a collaborator whenever we are inviting him as a collaborator.
+First thing is this Docker repository should be cloned by this user.
+If he is not yet cloned, it doesn't work if I go to the kills.
+
+
+
