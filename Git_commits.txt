@@ -17,3 +17,5 @@ both are showing changes of different commit id
 
 how to switch the commits in github
 #git checkout commit_id 
+then you want to come back main branch 
+#git checkout main
