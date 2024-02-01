@@ -29,6 +29,25 @@ so users push code ponly dev branch and not allow to push any code directly to t
 so i need to protect my test and prod branch 
 no one access branch which branch i Protecting 
 
+go to github ---- Setting of repos ------branches-----add branch protection rule 
+branch name pattern: main
+click Require a pull request before merging
+then create a full request 
+now I am trying to do some chaanges on main branch and then committed hence it is asking to create new branch for this change 
+and then create pull request for merge those changes to main branch 
+
+and this repos has 3 branches 1 maain , 2 dev 
+now switch to dev and then make some changes then commited 
+hence is showing pull and review request at repos level 
+then you click pull and review request and then you need to review one user then he will approve yourchanges 
+to main as per settings of main
+
+========================================
+tagging a commit 
+
+1. tags are ref's that point to specific commit in GIT history 
+2. tagging is generaly used to capture a point in history that is used for a marked version release (i,e v1.0.1)
+3. A tag is like a branch that doesn't change 
 
 
 
