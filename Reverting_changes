@@ -1,0 +1,37 @@
+working directory -------------staging area or index area ---------local repository 
+      <-------- git restore     -----------
+ <--------------------------git reset -----------------------------------
+
+
+Revert changes from woring directory 
+
+#git restore file1.txt
+or
+#git checkout -- file1.txt
+
+Revert changes from Staging area to working area and changes will move to workig directory again 
+#git reset file1.txt
+or
+#git restore --staged file1.rxt
+
+Revert changes from Local Repos  to working area 
+#git reset HEAD~1 
+or
+#git reset --mixed HEAD~1
+Revert changes from Local Repos  to Staging  area 
+#git reset --soft HEAD~1
+Revert changes from Local Repos and discarded 
+#git reset --hard HEAD~1
+
+---------------------------------
+Git ignore file 
+.gitignore
+
+in yuor working directory , i dont want to commit all file , i wnat to skip some file from working directory and commit rest of file 
+so we can use .gitignore and move all file name into this file:.gitignore  
+when every you commit your file , ignore some file which file names you mention this file .gitignore 
+
+
+
+
+
