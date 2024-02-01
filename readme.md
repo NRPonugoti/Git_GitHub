@@ -13,4 +13,8 @@ git pull =git fetch +git merge
 
 # git merge 
 it is going to pull all changes from our local repos to working directory 
+
 git merge 
+
+# git clone 
+in case  the repository is not exist in our repository then we need to use git clone 
