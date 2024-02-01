@@ -1,0 +1,15 @@
+go to githu account ---> click repository ---> click NEW 
+then 
+repository name: privatedemorepos
+then select private 
+then create repos 
+create private repos and we can authentication by using SSH Keys and you can maintaine your code as secure one 
+
+Adding collaborator to github repos 
+
+as owner of this account , i trust another user and i would like to work with him in this proejct 
+if that is the case , another user is also work with me closely , he might be doing commits quite frequently so each and every commit I need to come over here and accept 
+his pull request rather then that one what i can do i can add another user as collaborator , so i don't need to approve his commit 
+what ever he do on this repos for that i can go 
+
+Setting ----Manage Access ----click Invite a collaborator 
