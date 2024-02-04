@@ -1,3 +1,4 @@
 this
 th
 this is git commit
+i am adding git amend
