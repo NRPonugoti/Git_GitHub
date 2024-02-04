@@ -19,8 +19,8 @@ git merge
 # git clone 
 in case  the repository is not exist in our repository then we need to use git clone 
 
-## github is code hosting platform where we can host our repositories 
-
+# Git Hub
+github is code hosting platform where we can host our repositories 
 so other developers can able to use those repositories and do the changes to the same code 
 
 # Adv of github:
