@@ -58,10 +58,19 @@ then check it
 #git tag
 then push this tags to github
 #git push origin v1.0
+or
+#git push --tags 
 or 
 #git tag -a v1.1 commit_id  -m " Version 1.1 which work with portal" (git tag -a v1.1 1cbcf566 -m "description")
 
 tags helps us to remember our working commits 
 
 
+to delete tag 
+#git tag -d list or #git tag -d <tag_name>
 
+delete tags in github
+#git push origin :v1.0
+
+Enagle tags in config file 
+#git config --global push.followTags true 
