@@ -1,5 +1,8 @@
 this
 th
 this is git commit
+<<<<<<< HEAD
 i am adding git amend
 adding tags 
+=======
+>>>>>>> bf465faddbd5430e597c41f41b4892e582641758

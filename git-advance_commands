@@ -1,0 +1,8 @@
+git amend command : you would use when you need to modify something about last commit 
+anytime we are going to rewrite history and using the amend command is going to rewrite history
+we need to be a little bit careful.
+change message of last commit 
+#git commit --amend 
+or 
+#git commit --amend -m " change message here"
+
