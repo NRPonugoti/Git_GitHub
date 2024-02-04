@@ -93,6 +93,15 @@ delete the unmargeb branch
 $ git branch -D branchname 
 when you create the new branch then all commit history also copied from master to new branck
 
+create branch and push it to github 
+$git checkout -b production
+then
+$ git push origin production
+delete branch and push it to github
+$git branch -d production
+then push it to git hub
+$git push origin :production 
+
 see all commit history 
 $git log --online 
 
