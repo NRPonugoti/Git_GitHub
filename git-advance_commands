@@ -6,3 +6,9 @@ change message of last commit
 or 
 #git commit --amend -m " change message here"
 
+# cherry-pick 
+cherry pick used to move commit_id from one branch(sub-branch) to another branch( main) 
+#git cherry-pick <commit_id>
+
+intervie question : 
+difference b/w git merge and gitrebase 
