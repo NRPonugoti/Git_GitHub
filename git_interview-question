@@ -1,0 +1,63 @@
+1. Is git a distributed or centralized version control systems ? what is the difference b/w them ?
+git is distributed version control systesm 
+centralized version control systems is client- server arch , server which  remote repository has all copies of the code all versin of the code is avaiable in server 
+where as distributed version control systesm , every developer has all version of the code 
+
+2. what are the git commands that you use to commit changes to your remote repository ?
+git ad, git commit , git push 
+
+3.what is the difernce b/w git fetch and git pull ?
+if we use git fetch it is going to sync only our remote repository with our local repository
+git pull do 2 things
+
+it is going to sync our remote repository with local repository
+at the same time it pull all changes into our working directory
+
+4. what is the diffrence b/w git merge and git rebase  ?
+both of them desing for same purpose that menas if we want to bring the code changes from  branch X to  banch Y , we can either use git merge or git rebase 
+both of them does same purpose , the only difference is how they are projecting the history 
+if you want to linear code history , you can use git rebase 
+you don't bother the git history , you can use git merge 
+
+5. what is .git and .gitignore ?
+.git contains all information about your project like your branches history and your remote repository 
+.gitignore is basically you want to skip anything topush from your working directory to local reposity ,you should mention file name in .gitignore
+
+6. what are pre-commit hooks and post-commit hooks ?
+
+hook is something we want to perfomr an action before and after something then it is called hoks 
+pre-commit hooks  actions are taken  before you do git commit 
+post-commit hooks  actions are taken by git  after  you do git commit 
+assume certain files you don't want to commit files like password file or some secure info file 
+if you accidently commit password file , it is excute pre-commit hook to prevent it 
+
+7. what is webhook ?
+it is part of github , 
+
+8. how to pull and push changes to git?
+git pull git push 
+
+9. what is gitstash and talk about its use case ?
+basically git stash is temporarily saves changes that you have made on your working copy 
+let's assume we want to you are working on a code change and you know immediatley there is a very serious bug and you want to move from this bug to other bug 
+and you cannot commit these changes because they are not ready so waht you can simpley do that you  can stash these changes 
+which means you are temporarily saving them in your git and you move to different bug and you make tohose code changes and once you are satishfywith them you push them 
+and then you come back and say git stash pop so what every changes that you have stashed they can get those changes back thats about git stash 
+
+10. what is the difference b/w git clone and git fork ?
+
+11. what is cherry-pick in git ?
+you have commit x branch and you want to get same commit as it is from x branch to a branch called feature 
+so yoy know that there are no merge conflict okat insted of manually coping the changes or using git merge something you can simply do git cherry-pick
+so that the whole commit if there are no merge conflict can be taken directly 
+
+12. how to amend a commit in git ?
+git commit --amend and that would actually amend 
+
+13. how do you resolve a merge conflict in git ?
+it can be resolve by collaboration discuss which change is required if his change is required or your changes is requried 
+
+
+
+
+
