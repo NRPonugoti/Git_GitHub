@@ -1,0 +1,27 @@
+we use tags to mark importnent events 
+github extends tag conecpt release , allow us to attache release note and provide links to download archive of our project 
+
+create simple / light weight tag 
+Simple and lightweight tags simply label a specific commit;
+#git tag stable main ( main branch name ) which means the last commit on the main banch 
+
+create release / annotate tags 
+#git tag -a v1.0-alpha -m "tag mesage"  commit_id
+annotate tag , we have option of using of git show command 
+#git show v1.0-alpha
+
+push the tags to github 
+#git push origin <tag_name>
+or 
+push all tags to github 
+#git push --tags 
+delete tags in git local repos 
+#git tag -d <tag_name>
+then move over github
+#git push orign :<tag_name>
+
+if tag:unstalbe has already associated with commit id in development/ any branch 
+then user did  some commits top of unstable commits 
+then i want to move / change unstalbe tag name and point to new head with correct tag name ( move tag name to different commit id)
+#git tag -f <tag_name> commit_id(latest commit id )
+#git tag -f unstable obc22f 
