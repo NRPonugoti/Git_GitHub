@@ -1,14 +1,22 @@
 we use tags to mark importnent events 
 github extends tag conecpt release , allow us to attache release note and provide links to download archive of our project 
 
-create simple / light weight tag 
+create simple / light weight tag  like bookmark tags 
 Simple and lightweight tags simply label a specific commit;
 #git tag stable main ( main branch name ) which means the last commit on the main banch 
 
 create release / annotate tags 
+an annotated tag allows you to make a tag ,that you can put your information about who did it,
+what all the state of the thing is when it was done,
+
+and so there's a tag commit message as well.
 #git tag -a v1.0-alpha -m "tag mesage"  commit_id
 annotate tag , we have option of using of git show command 
 #git show v1.0-alpha
+
+show list of tag 
+#git tag --list 
+
 
 push the tags to github 
 #git push origin <tag_name>
@@ -25,3 +33,9 @@ then user did  some commits top of unstable commits
 then i want to move / change unstalbe tag name and point to new head with correct tag name ( move tag name to different commit id)
 #git tag -f <tag_name> commit_id(latest commit id )
 #git tag -f unstable obc22f 
+
+
+#git config --global  push.followTags true 
+So, once you've added that git config setting,
+you now have the ability to do a push,and every time you push,
+any tags that don't exist out at your repository on origin are going to go ahead and get pushed along with your push.
