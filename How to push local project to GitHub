@@ -8,5 +8,7 @@ then push this project to github project
 then go to github 
 then create new repository with name: project which name of folder you created in working directory 
 #git remote add origin url_of_github_repos
+#git remote -v
 then push it 
-#git push origin master 
+#git push -u origin master 
+
